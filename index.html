@@ -1,0 +1,655 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="shortcut icon" href="img/favicon.ico">
+    <title>Тестовое задание</title>
+</head>
+
+<body>
+    <div class="wrapper">
+        <header class="header lock-padding">
+            <div class="header__container">
+                <a href="index.html" class="header__logo">
+                    <img src="img/logo.jpg" alt="">
+                </a>
+                <div class="header__menu menu">
+                    <div class="menu__icon">
+                        <span></span>
+                    </div>
+                    <nav class="menu__body">
+                        <ul class="menu__list">
+                            <li><a data-goto=".page_section_1" href="index.html" class="menu__link">Главная</a></li>
+                            <li><a data-goto=".page_section_2" href="#" class="menu__link">Велосипеды</a>
+                            </li>
+                            <li><a data-goto=".page_section_3" href="#" class="menu__link">Лыжи и сноуборды</a>
+                            </li>
+                            <li><a data-goto=".page_section_4" href="#" class="menu__link">Походы</a>
+                            </li>
+                            <li><a data-goto=".page_section_5" href="#" class="menu__link">Рыбалка</a></li>
+                        </ul>
+                    </nav>
+                    <div class="menu__light-dark">
+                        <button type="button" class="page__theme"></button>
+                        <button type="button" class="page__reset"></button>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <section id="section_1" class="page_section page_section_1">
+            <div class="container section_1__container">
+                <div class="page_section_1__row">
+                    <div class="page_section_1__body">
+                        <h1 class="page_section_1__title">Магазин для активных людей</h1>
+                        <div class="page_section_1__text">
+                            <p>Вы любите спорт? Тогда вам <del><span>в Декатлон</span></del> к нам!</p>
+                        </div>
+                    </div>
+                    <div class="page_section_1__transfer">
+                        <div class="page_section_1__button">
+                            <a data-goto=".page_section_2" href="#" class="menu__link">подробнее</a>
+                        </div>
+                        <div class="page_section_1__symbol">
+                            <img src="img//symbols/down.png" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <div class="page_and_sidebar">
+            <div class="container big_container">
+                <div class="page_and_sidebar__row">
+                    <aside class="sidebar">
+                        <nav class="sidebar__menu">
+                            <ul class="sidebar__list">
+                                <li>
+                                    <a data-goto="#section_1" href="#" class="sidebar__link">Главная</a>
+                                </li>
+                                <li>
+                                    <a data-goto="#section_2" href="#" class="sidebar__link">Велосипеды</a>
+                                </li>
+                                <li>
+                                    <a data-goto="#section_3" href="#" class="sidebar__link">Лыжи и сноуборды</a>
+                                </li>
+                                <li>
+                                    <a data-goto="#section_4" href="#" class="sidebar__link">Походы</a>
+                                </li>
+                                <li>
+                                    <a data-goto="#section_5" href="#" class="sidebar__link">Рыбалка</a>
+                                </li>
+                            </ul>
+                        </nav>
+                    </aside>
+                    <main class="page">
+                        <section id="section_2" class="page_section page_section_2">
+                            <div class="container">
+                                <h2 class="page_section__title">Велосипеды</h2>
+                                <div class="page_section__items">
+                                    <div class="page_section__item new">
+                                        <div class="page_section__image">
+                                            <a href="#image" class="popup-link popup-link_img"><img
+                                                    src="img/bicycle/bicycle_1.jpg" alt="Product Image"></a>
+                                        </div>
+                                        <p class="page_section__text">Краткое описание товара #1</p>
+                                        <p class="page_section__date">Дата публикации: <span class="date"></span></p>
+                                        <a href="#popup" class="page_section__button popup-link">Купить</a>
+                                    </div>
+                                    <div class="page_section__item new">
+                                        <div class="page_section__image">
+                                            <a href="#image" class="popup-link popup-link_img"><img
+                                                    src="img/bicycle/bicycle_2.jpg" alt="Product Image"></a>
+                                        </div>
+                                        <p class="page_section__text">Краткое описание товара #2</p>
+                                        <p class="page_section__date">Дата публикации: <span class="date"></span></p>
+                                        <a href="#popup" class="page_section__button popup-link">Купить</a>
+                                    </div>
+                                    <div class="page_section__item new">
+                                        <div class="page_section__image">
+                                            <a href="#image" class="popup-link popup-link_img"><img
+                                                    src="img/bicycle/bicycle_3.jpg" alt="Product Image"></a>
+                                        </div>
+                                        <p class="page_section__text">Краткое описание товара #3</p>
+                                        <p class="page_section__date">Дата публикации: <span class="date"></span></p>
+                                        <a href="#popup" class="page_section__button popup-link">Купить</a>
+                                    </div>
+                                    <div class="page_section__item new">
+                                        <div class="page_section__image">
+                                            <a href="#image" class="popup-link popup-link_img"><img
+                                                    src="img/bicycle/bicycle_4.jpg" alt="Product Image"></a>
+                                        </div>
+                                        <p class="page_section__text">Краткое описание товара #4</p>
+                                        <p class="page_section__date">Дата публикации: <span class="date"></span></p>
+                                        <a href="#popup" class="page_section__button popup-link">Купить</a>
+                                    </div>
+                                    <div class="page_section__item new">
+                                        <div class="page_section__image">
+                                            <a href="#image" class="popup-link popup-link_img"><img
+                                                    src="img/bicycle/bicycle_5.jpg" alt="Product Image"></a>
+                                        </div>
+                                        <p class="page_section__text">Краткое описание товара #5</p>
+                                        <p class="page_section__date">Дата публикации: <span class="date"></span></p>
+                                        <a href="#popup" class="page_section__button popup-link">Купить</a>
+                                    </div>
+                                    <div class="page_section__item new">
+                                        <div class="page_section__image">
+                                            <a href="#image" class="popup-link popup-link_img"><img
+                                                    src="img/bicycle/bicycle_6.jpg" alt="Product Image"></a>
+                                        </div>
+                                        <p class="page_section__text">Краткое описание товара #6</p>
+                                        <p class="page_section__date">Дата публикации: <span class="date"></span></p>
+                                        <a href="#popup" class="page_section__button popup-link">Купить</a>
+                                    </div>
+                                    <div class="page_section__item new">
+                                        <div class="page_section__image">
+                                            <a href="#image" class="popup-link popup-link_img"><img
+                                                    src="img/bicycle/bicycle_7.jpg" alt="Product Image"></a>
+                                        </div>
+                                        <p class="page_section__text">Краткое описание товара #7</p>
+                                        <p class="page_section__date">Дата публикации: <span class="date"></span></p>
+                                        <a href="#popup" class="page_section__button popup-link">Купить</a>
+                                    </div>
+                                    <div class="page_section__item new">
+                                        <div class="page_section__image">
+                                            <a href="#image" class="popup-link popup-link_img"><img
+                                                    src="img/bicycle/bicycle_8.jpg" alt="Product Image"></a>
+                                        </div>
+                                        <p class="page_section__text">Краткое описание товара #8</p>
+                                        <p class="page_section__date">Дата публикации: <span class="date"></span></p>
+                                        <a href="#popup" class="page_section__button popup-link">Купить</a>
+                                    </div>
+                                    <div class="page_section__item new">
+                                        <div class="page_section__image">
+                                            <a href="#image" class="popup-link popup-link_img"><img
+                                                    src="img/bicycle/bicycle_9.jpg" alt="Product Image"></a>
+                                        </div>
+                                        <p class="page_section__text">Краткое описание товара #9</p>
+                                        <p class="page_section__date">Дата публикации: <span class="date"></span></p>
+                                        <a href="#popup" class="page_section__button popup-link">Купить</a>
+                                    </div>
+                                    <div class="page_section__item new">
+                                        <div class="page_section__image">
+                                            <a href="#image" class="popup-link popup-link_img"><img
+                                                    src="img/bicycle/bicycle_10.jpg" alt="Product Image"></a>
+                                        </div>
+                                        <p class="page_section__text">Краткое описание товара #10</p>
+                                        <p class="page_section__date">Дата публикации: <span class="date"></span></p>
+                                        <a href="#popup" class="page_section__button popup-link">Купить</a>
+                                    </div>
+                                    <div class="page_section__item new">
+                                        <div class="page_section__image">
+                                            <a href="#image" class="popup-link popup-link_img"><img
+                                                    src="img/bicycle/bicycle_11.jpg" alt="Product Image"></a>
+                                        </div>
+                                        <p class="page_section__text">Краткое описание товара #11</p>
+                                        <p class="page_section__date">Дата публикации: <span class="date"></span></p>
+                                        <a href="#popup" class="page_section__button popup-link">Купить</a>
+                                    </div>
+                                    <div class="page_section__item new">
+                                        <div class="page_section__image">
+                                            <a href="#image" class="popup-link popup-link_img"><img
+                                                    src="img/bicycle/bicycle_12.jpg" alt="Product Image"></a>
+                                        </div>
+                                        <p class="page_section__text">Краткое описание товара #12</p>
+                                        <p class="page_section__date">Дата публикации: <span class="date"></span></p>
+                                        <a href="#popup" class="page_section__button popup-link">Купить</a>
+                                    </div>
+                                    <div class="page_section__item new">
+                                        <div class="page_section__image">
+                                            <a href="#image" class="popup-link popup-link_img"><img
+                                                    src="img/bicycle/bicycle_13.jpg" alt="Product Image"></a>
+                                        </div>
+                                        <p class="page_section__text">Краткое описание товара #13</p>
+                                        <p class="page_section__date">Дата публикации: <span class="date"></span></p>
+                                        <a href="#popup" class="page_section__button popup-link">Купить</a>
+                                    </div>
+
+                                </div>
+                            </div>
+                        </section>
+                        <section id="section_3" class="page_section page_section_3">
+                            <div class="container">
+                                <h2 class="page_section__title">Лыжи и сноуборды</h2>
+                                <div class="page_section__items">
+                                    <div class="page_section__item new">
+                                        <div class="page_section__image">
+                                            <a href="#image" class="popup-link popup-link_img"><img
+                                                    src="img/ski/ski_1.jpg" alt="Product Image"></a>
+                                        </div>
+                                        <p class="page_section__text">Краткое описание товара #1</p>
+                                        <p class="page_section__date">Дата публикации: <span class="date"></span></p>
+                                        <a href="#popup" class="page_section__button popup-link">Купить</a>
+                                    </div>
+                                    <div class="page_section__item new">
+                                        <div class="page_section__image">
+                                            <a href="#image" class="popup-link popup-link_img"><img
+                                                    src="img/ski/ski_2.jpg" alt="Product Image"></a>
+                                        </div>
+                                        <p class="page_section__text">Краткое описание товара #2</p>
+                                        <p class="page_section__date">Дата публикации: <span class="date"></span></p>
+                                        <a href="#popup" class="page_section__button popup-link">Купить</a>
+                                    </div>
+                                    <div class="page_section__item new">
+                                        <div class="page_section__image">
+                                            <a href="#image" class="popup-link popup-link_img"><img
+                                                    src="img/ski/ski_3.jpg" alt="Product Image"></a>
+                                        </div>
+                                        <p class="page_section__text">Краткое описание товара #3</p>
+                                        <p class="page_section__date">Дата публикации: <span class="date"></span></p>
+                                        <a href="#popup" class="page_section__button popup-link">Купить</a>
+                                    </div>
+                                    <div class="page_section__item new">
+                                        <div class="page_section__image">
+                                            <a href="#image" class="popup-link popup-link_img"><img
+                                                    src="img/ski/ski_4.jpg" alt="Product Image"></a>
+                                        </div>
+                                        <p class="page_section__text">Краткое описание товара #4</p>
+                                        <p class="page_section__date">Дата публикации: <span class="date"></span></p>
+                                        <a href="#popup" class="page_section__button popup-link">Купить</a>
+                                    </div>
+                                    <div class="page_section__item new">
+                                        <div class="page_section__image">
+                                            <a href="#image" class="popup-link popup-link_img"><img
+                                                    src="img/ski/ski_5.jpg" alt="Product Image"></a>
+                                        </div>
+                                        <p class="page_section__text">Краткое описание товара #5</p>
+                                        <p class="page_section__date">Дата публикации: <span class="date"></span></p>
+                                        <a href="#popup" class="page_section__button popup-link">Купить</a>
+                                    </div>
+                                    <div class="page_section__item new">
+                                        <div class="page_section__image">
+                                            <a href="#image" class="popup-link popup-link_img"><img
+                                                    src="img/ski/ski_6.jpg" alt="Product Image"></a>
+                                        </div>
+                                        <p class="page_section__text">Краткое описание товара #6</p>
+                                        <p class="page_section__date">Дата публикации: <span class="date"></span></p>
+                                        <a href="#popup" class="page_section__button popup-link">Купить</a>
+                                    </div>
+                                    <div class="page_section__item new">
+                                        <div class="page_section__image">
+                                            <a href="#image" class="popup-link popup-link_img"><img
+                                                    src="img/ski/snowboard_1.jpg" alt="Product Image"></a>
+                                        </div>
+                                        <p class="page_section__text">Краткое описание товара #7</p>
+                                        <p class="page_section__date">Дата публикации: <span class="date"></span></p>
+                                        <a href="#popup" class="page_section__button popup-link">Купить</a>
+                                    </div>
+                                    <div class="page_section__item new">
+                                        <div class="page_section__image">
+                                            <a href="#image" class="popup-link popup-link_img"><img
+                                                    src="img/ski/snowboard_5.jpg" alt="Product Image"></a>
+                                        </div>
+                                        <p class="page_section__text">Краткое описание товара #8</p>
+                                        <p class="page_section__date">Дата публикации: <span class="date"></span></p>
+                                        <a href="#popup" class="page_section__button popup-link">Купить</a>
+                                    </div>
+                                    <div class="page_section__item new">
+                                        <div class="page_section__image">
+                                            <a href="#image" class="popup-link popup-link_img"><img
+                                                    src="img/ski/snowboard_4.jpg" alt="Product Image"></a>
+                                        </div>
+                                        <p class="page_section__text">Краткое описание товара #9</p>
+                                        <p class="page_section__date">Дата публикации: <span class="date"></span></p>
+                                        <a href="#popup" class="page_section__button popup-link">Купить</a>
+                                    </div>
+                                    <div class="page_section__item new">
+                                        <div class="page_section__image">
+                                            <a href="#image" class="popup-link popup-link_img"><img
+                                                    src="img/ski/snowboard_6.jpg" alt="Product Image"></a>
+                                        </div>
+                                        <p class="page_section__text">Краткое описание товара #10</p>
+                                        <p class="page_section__date">Дата публикации: <span class="date"></span></p>
+                                        <a href="#popup" class="page_section__button popup-link">Купить</a>
+                                    </div>
+                                    <div class="page_section__item new">
+                                        <div class="page_section__image">
+                                            <a href="#image" class="popup-link popup-link_img"><img
+                                                    src="img/ski/snowboard_7.jpg" alt="Product Image"></a>
+                                        </div>
+                                        <p class="page_section__text">Краткое описание товара #11</p>
+                                        <p class="page_section__date">Дата публикации: <span class="date"></span></p>
+                                        <a href="#popup" class="page_section__button popup-link">Купить</a>
+                                    </div>
+                                    <div class="page_section__item new">
+                                        <div class="page_section__image">
+                                            <a href="#image" class="popup-link popup-link_img"><img
+                                                    src="img/ski/snowboard_3.jpg" alt="Product Image"></a>
+                                        </div>
+                                        <p class="page_section__text">Краткое описание товара #12</p>
+                                        <p class="page_section__date">Дата публикации: <span class="date"></span></p>
+                                        <a href="#popup" class="page_section__button popup-link">Купить</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </section>
+                        <section id="section_4" class="page_section page_section_4">
+                            <div class="container">
+                                <h2 class="page_section__title">Походы</h2>
+                                <div class="page_section__items">
+                                    <div class="page_section__item new">
+                                        <div class="page_section__image">
+                                            <a href="#image" class="popup-link popup-link_img"><img
+                                                    src="img/hiking/hiking_1.jpg" alt="Product Image"></a>
+                                        </div>
+                                        <p class="page_section__text">Краткое описание товара #1</p>
+                                        <p class="page_section__date">Дата публикации: <span class="date"></span></p>
+                                        <a href="#popup" class="page_section__button popup-link">Купить</a>
+                                    </div>
+                                    <div class="page_section__item new">
+                                        <div class="page_section__image">
+                                            <a href="#image" class="popup-link popup-link_img"><img
+                                                    src="img/hiking/hiking_2.jpg" alt="Product Image"></a>
+                                        </div>
+                                        <p class="page_section__text">Краткое описание товара #2</p>
+                                        <p class="page_section__date">Дата публикации: <span class="date"></span></p>
+                                        <a href="#popup" class="page_section__button popup-link">Купить</a>
+                                    </div>
+                                    <div class="page_section__item new">
+                                        <div class="page_section__image">
+                                            <a href="#image" class="popup-link popup-link_img"><img
+                                                    src="img/hiking/hiking_3.jpg" alt="Product Image"></a>
+                                        </div>
+                                        <p class="page_section__text">Краткое описание товара #3</p>
+                                        <p class="page_section__date">Дата публикации: <span class="date"></span></p>
+                                        <a href="#popup" class="page_section__button popup-link">Купить</a>
+                                    </div>
+                                    <div class="page_section__item new">
+                                        <div class="page_section__image">
+                                            <a href="#image" class="popup-link popup-link_img"><img
+                                                    src="img/hiking/hiking_4.jpg" alt="Product Image"></a>
+                                        </div>
+                                        <p class="page_section__text">Краткое описание товара #4</p>
+                                        <p class="page_section__date">Дата публикации: <span class="date"></span></p>
+                                        <a href="#popup" class="page_section__button popup-link">Купить</a>
+                                    </div>
+                                    <div class="page_section__item new">
+                                        <div class="page_section__image">
+                                            <a href="#image" class="popup-link popup-link_img"><img
+                                                    src="img/hiking/hiking_5.jpg" alt="Product Image"></a>
+                                        </div>
+                                        <p class="page_section__text">Краткое описание товара #5</p>
+                                        <p class="page_section__date">Дата публикации: <span class="date"></span></p>
+                                        <a href="#popup" class="page_section__button popup-link">Купить</a>
+                                    </div>
+                                    <div class="page_section__item new">
+                                        <div class="page_section__image">
+                                            <a href="#image" class="popup-link popup-link_img"><img
+                                                    src="img/hiking/hiking_6.jpg" alt="Product Image"></a>
+                                        </div>
+                                        <p class="page_section__text">Краткое описание товара #6</p>
+                                        <p class="page_section__date">Дата публикации: <span class="date"></span></p>
+                                        <a href="#popup" class="page_section__button popup-link">Купить</a>
+                                    </div>
+                                    <div class="page_section__item new">
+                                        <div class="page_section__image">
+                                            <a href="#image" class="popup-link popup-link_img"><img
+                                                    src="img/hiking/hiking_7.jpg" alt="Product Image"></a>
+                                        </div>
+                                        <p class="page_section__text">Краткое описание товара #7</p>
+                                        <p class="page_section__date">Дата публикации: <span class="date"></span></p>
+                                        <a href="#popup" class="page_section__button popup-link">Купить</a>
+                                    </div>
+                                    <div class="page_section__item new">
+                                        <div class="page_section__image">
+                                            <a href="#image" class="popup-link popup-link_img"><img
+                                                    src="img/hiking/hiking_8.jpg" alt="Product Image"></a>
+                                        </div>
+                                        <p class="page_section__text">Краткое описание товара #8</p>
+                                        <p class="page_section__date">Дата публикации: <span class="date"></span></p>
+                                        <a href="#popup" class="page_section__button popup-link">Купить</a>
+                                    </div>
+                                    <div class="page_section__item new">
+                                        <div class="page_section__image">
+                                            <a href="#image" class="popup-link popup-link_img"><img
+                                                    src="img/hiking/hiking_9.jpg" alt="Product Image"></a>
+                                        </div>
+                                        <p class="page_section__text">Краткое описание товара #9</p>
+                                        <p class="page_section__date">Дата публикации: <span class="date"></span></p>
+                                        <a href="#popup" class="page_section__button popup-link">Купить</a>
+                                    </div>
+                                    <div class="page_section__item new">
+                                        <div class="page_section__image">
+                                            <a href="#image" class="popup-link popup-link_img"><img
+                                                    src="img/hiking/hiking_10.jpg" alt="Product Image"></a>
+                                        </div>
+                                        <p class="page_section__text">Краткое описание товара #10</p>
+                                        <p class="page_section__date">Дата публикации: <span class="date"></span></p>
+                                        <a href="#popup" class="page_section__button popup-link">Купить</a>
+                                    </div>
+                                    <div class="page_section__item new">
+                                        <div class="page_section__image">
+                                            <a href="#image" class="popup-link popup-link_img"><img
+                                                    src="img/hiking/hiking_11.jpg" alt="Product Image"></a>
+                                        </div>
+                                        <p class="page_section__text">Краткое описание товара #11</p>
+                                        <p class="page_section__date">Дата публикации: <span class="date"></span></p>
+                                        <a href="#popup" class="page_section__button popup-link">Купить</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </section>
+                        <section id="section_5" class="page_section page_section_5">
+                            <div class="container">
+                                <h2 class="page_section__title">Рыбалка</h2>
+                                <div class="page_section__items">
+                                    <div class="page_section__item new">
+                                        <div class="page_section__image">
+                                            <a href="#image" class="popup-link popup-link_img"><img
+                                                    src="img/fishing/fishing_1.jpg" alt="Product Image"></a>
+                                        </div>
+                                        <p class="page_section__text">Краткое описание товара #1</p>
+                                        <p class="page_section__date">Дата публикации: <span class="date"></span></p>
+                                        <a href="#popup" class="page_section__button popup-link">Купить</a>
+                                    </div>
+                                    <div class="page_section__item new">
+                                        <div class="page_section__image">
+                                            <a href="#image" class="popup-link popup-link_img"><img
+                                                    src="img/fishing/fishing_2.jpg" alt="Product Image"></a>
+                                        </div>
+                                        <p class="page_section__text">Краткое описание товара #2</p>
+                                        <p class="page_section__date">Дата публикации: <span class="date"></span></p>
+                                        <a href="#popup" class="page_section__button popup-link">Купить</a>
+                                    </div>
+                                    <div class="page_section__item new">
+                                        <div class="page_section__image">
+                                            <a href="#image" class="popup-link popup-link_img"><img
+                                                    src="img/fishing/fishing_3.jpg" alt="Product Image"></a>
+                                        </div>
+                                        <p class="page_section__text">Краткое описание товара #3</p>
+                                        <p class="page_section__date">Дата публикации: <span class="date"></span></p>
+                                        <a href="#popup" class="page_section__button popup-link">Купить</a>
+                                    </div>
+                                    <div class="page_section__item new">
+                                        <div class="page_section__image">
+                                            <a href="#image" class="popup-link popup-link_img"><img
+                                                    src="img/fishing/fishing_4.jpg" alt="Product Image"></a>
+                                        </div>
+                                        <p class="page_section__text">Краткое описание товара #4</p>
+                                        <p class="page_section__date">Дата публикации: <span class="date"></span></p>
+                                        <a href="#popup" class="page_section__button popup-link">Купить</a>
+                                    </div>
+                                    <div class="page_section__item new">
+                                        <div class="page_section__image">
+                                            <a href="#image" class="popup-link popup-link_img"><img
+                                                    src="img/fishing/fishing_5.jpg" alt="Product Image"></a>
+                                        </div>
+                                        <p class="page_section__text">Краткое описание товара #5</p>
+                                        <p class="page_section__date">Дата публикации: <span class="date"></span></p>
+                                        <a href="#popup" class="page_section__button popup-link">Купить</a>
+                                    </div>
+                                    <div class="page_section__item new">
+                                        <div class="page_section__image">
+                                            <a href="#image" class="popup-link popup-link_img"><img
+                                                    src="img/fishing/fishing_6.jpg" alt="Product Image"></a>
+                                        </div>
+                                        <p class="page_section__text">Краткое описание товара #6</p>
+                                        <p class="page_section__date">Дата публикации: <span class="date"></span></p>
+                                        <a href="#popup" class="page_section__button popup-link">Купить</a>
+                                    </div>
+                                    <div class="page_section__item new">
+                                        <div class="page_section__image">
+                                            <a href="#image" class="popup-link popup-link_img"><img
+                                                    src="img/fishing/fishing_7.jpg" alt="Product Image"></a>
+                                        </div>
+                                        <p class="page_section__text">Краткое описание товара #7</p>
+                                        <p class="page_section__date">Дата публикации: <span class="date"></span></p>
+                                        <a href="#popup" class="page_section__button popup-link">Купить</a>
+                                    </div>
+                                    <div class="page_section__item new">
+                                        <div class="page_section__image">
+                                            <a href="#image" class="popup-link popup-link_img"><img
+                                                    src="img/fishing/fishing_8.jpg" alt="Product Image"></a>
+                                        </div>
+                                        <p class="page_section__text">Краткое описание товара #8</p>
+                                        <p class="page_section__date">Дата публикации: <span class="date"></span></p>
+                                        <a href="#popup" class="page_section__button popup-link">Купить</a>
+                                    </div>
+                                    <div class="page_section__item new">
+                                        <div class="page_section__image">
+                                            <a href="#image" class="popup-link popup-link_img"><img
+                                                    src="img/fishing/fishing_9.jpg" alt="Product Image"></a>
+                                        </div>
+                                        <p class="page_section__text">Краткое описание товара #9</p>
+                                        <p class="page_section__date">Дата публикации: <span class="date"></span></p>
+                                        <a href="#popup" class="page_section__button popup-link">Купить</a>
+                                    </div>
+                                    <div class="page_section__item new">
+                                        <div class="page_section__image">
+                                            <a href="#image" class="popup-link popup-link_img"><img
+                                                    src="img/fishing/fishing_10.jpg" alt="Product Image"></a>
+                                        </div>
+                                        <p class="page_section__text">Краткое описание товара #10</p>
+                                        <p class="page_section__date">Дата публикации: <span class="date"></span></p>
+                                        <a href="#popup" class="page_section__button popup-link">Купить</a>
+                                    </div>
+                                    <div class="page_section__item new">
+                                        <div class="page_section__image">
+                                            <a href="#image" class="popup-link popup-link_img"><img
+                                                    src="img/fishing/fishing_11.jpg" alt="Product Image"></a>
+                                        </div>
+                                        <p class="page_section__text">Краткое описание товара #11</p>
+                                        <p class="page_section__date">Дата публикации: <span class="date"></span></p>
+                                        <a href="#popup" class="page_section__button popup-link">Купить</a>
+                                    </div>
+                                    <div class="page_section__item new">
+                                        <div class="page_section__image">
+                                            <a href="#image" class="popup-link popup-link_img"><img
+                                                    src="img/fishing/fishing_12.jpg" alt="Product Image"></a>
+                                        </div>
+                                        <p class="page_section__text">Краткое описание товара #12</p>
+                                        <p class="page_section__date">Дата публикации: <span class="date"></span></p>
+                                        <a href="#popup" class="page_section__button popup-link">Купить</a>
+                                    </div>
+                                    <div class="page_section__item new">
+                                        <div class="page_section__image">
+                                            <a href="#image" class="popup-link popup-link_img"><img
+                                                    src="img/fishing/fishing_13.jpg" alt="Product Image"></a>
+                                        </div>
+                                        <p class="page_section__text">Краткое описание товара #13</p>
+                                        <p class="page_section__date">Дата публикации: <span class="date"></span></p>
+                                        <a href="#popup" class="page_section__button popup-link">Купить</a>
+                                    </div>
+                                    <div class="page_section__item new">
+                                        <div class="page_section__image">
+                                            <a href="#image" class="popup-link popup-link_img"><img
+                                                    src="img/fishing/fishing_14.jpg" alt="Product Image"></a>
+                                        </div>
+                                        <p class="page_section__text">Краткое описание товара #14</p>
+                                        <p class="page_section__date">Дата публикации: <span class="date"></span></p>
+                                        <a href="#popup" class="page_section__button popup-link">Купить</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </section>
+                    </main>
+                </div>
+            </div>
+        </div>
+        <footer class="footer">
+            <div class="footer__container container">
+                <div class="footer__row">
+                    <nav class="footer__menu">
+                        <ul class="footer__list">
+                            <li><a data-goto=".page_section_1" href="index.html" class="footer__link">Главная</a></li>
+                            <li><a data-goto=".page_section_2" href="#" class="footer__link">Велосипеды</a>
+                            </li>
+                            <li><a data-goto=".page_section_3" href="#" class="footer__link">Лыжи и сноуборды</a>
+                            </li>
+                            <li><a data-goto=".page_section_4" href="#" class="footer__link">Походы</a>
+                            </li>
+                            <li><a data-goto=".page_section_5" href="#" class="footer__link">Рыбалка</a></li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+        </footer>
+    </div>
+
+    <!-- Кнопка наверх -->
+    <div class="up-btn">
+        <svg xmlns="http://www.w3.org/2000/svg" style="display: none;">
+            <symbol id="arrow-up-short" viewBox="0 0 16 16">
+                <path fill-rule="evenodd"
+                    d="M8 12a.5.5 0 0 0 .5-.5V5.707l2.146 2.147a.5.5 0 0 0 .708-.708l-3-3a.5.5 0 0 0-.708 0l-3 3a.5.5 0 1 0 .708.708L7.5 5.707V11.5a.5.5 0 0 0 .5.5z" />
+            </symbol>
+        </svg>
+
+        <div class="btn-up btn-up_hide">
+            <svg class="btn-up-icon" role="img" aria-label="Прокрутить страницу к началу">
+                <use xlink:href="#arrow-up-short"></use>
+            </svg>
+        </div>
+    </div>
+
+    <!-- popup -->
+    <div id="popup" class="popup">
+        <div class="popup__body">
+            <div class="popup__content">
+                <a href="#header" class="popup__close close-popup">X</a>
+                <!-- <div class="form-container"> -->
+                <h2>Форма покупки</h2>
+                <form id="purchase-form">
+                    <label for="quantity">Количество:</label>
+                    <input type="number" id="quantity" name="quantity" min="1" required>
+
+                    <label>Цвет:</label>
+                    <label for="red"><input type="radio" id="red" name="color" value="red" required>Красный</label>
+                    <label for="yellow"><input type="radio" id="yellow" name="color" value="yellow"
+                            required>Желтый</label>
+                    <label for="blue"><input type="radio" id="blue" name="color" value="blue" required>Синий</label>
+                    <label for="green"><input type="radio" id="green" name="color" value="green"
+                            required>Зеленый</label>
+
+                    <label for="comment">Комментарий:</label><br>
+                    <textarea id="comment" name="comment" rows="4" maxlength="2000"
+                        style="max-width: 100%; min-width: 280px;"></textarea>
+                    <br>
+
+                    <button type="submit">Купить</button>
+                    <button type="button" class="close-popup">Закрыть</button>
+                </form>
+            </div>
+        </div>
+    </div>
+    <div id="image" class="popup">
+        <div class="popup__body">
+            <div class="popup__content popup__content_image">
+                <a href="#header" class="popup__close close-popup">X</a>
+                <div class="popup__image">
+                    <img src="img" alt="popup__image">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Файлы JS скриптов -->
+    <script src="js/script.js"></script>
+    <script src="js/popups.js"></script>
+    <script src="js/order.js"></script>
+    <script src="js/light_dark.js"></script>
+</body>
+
+</html>
